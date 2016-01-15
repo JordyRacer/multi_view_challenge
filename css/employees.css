@@ -15,11 +15,12 @@ img {
 	width: 250px;
 }
 
-/*
+
 .employeeimageholder, .employeetextholder{
 		border-style: solid;
 		border-color: white;
-}*/
+		display: inline-block;
+}
 
 h1 {
 	text-align:center;
@@ -29,11 +30,19 @@ h1 {
 .employeetextholder{
 	text-align: left;
 	padding: 10px;
-	width: 615px;
-	height: 370px;
+	width: 50%;
+
 	display: inline-block;
 	vertical-align: top;
 	background-color: gray;
 	color: lightgreen;
 	font-size: 24px;
+}
+
+.employeecontact{
+	position: inherit;
+	width: 200px;
+	height:150px;
+	background-color:white;
+	display: block;
 }
